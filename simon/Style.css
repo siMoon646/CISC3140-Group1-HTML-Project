@@ -56,18 +56,20 @@ body{
 .horizontalList{
     display: flex;
     list-style: square;
+    gap: 33%;
+    font-family: "Minefont";
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    text-align: justify;
+    color: rgb(28, 190, 77);
 }
 
 .box{
     background-color: rgb(10,10,10);
     width: 68%;
-    margin: 0 auto;     /* centers the bounding box */
+    margin: 0 auto;
     padding: 1rem;
     border: 1rem solid rgb(20,20,20);
     border-radius: 2rem;
     /*for debugging purposes:*/
     /* background-color: aliceblue; */
 }
-
-
-
