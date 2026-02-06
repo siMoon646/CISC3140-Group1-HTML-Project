@@ -37,12 +37,6 @@ hr{
     border-radius: 2rem;
 }
 
-img{
-    margin-top: 1rem;
-    border-radius: 2rem;
-    border: .25rem solid white;
-}
-
 p{
     /* background-color: rgba(39, 42, 49, 0.863); */
     font:1.25rem "Minefont";
@@ -56,6 +50,10 @@ p{
     
 }
 
+ul{
+    font:1.25rem "Minefont";
+}
+
 .box{
     background-color: rgb(10,10,10);
     width: 68%;
@@ -67,10 +65,31 @@ p{
     /* background-color: aliceblue; */
 }
 
-.horizontalList{
+.sub-box{
+    width: 35%;
+    column-gap: 2rem;
+    /*for debugging purposes:*/
+    /* background-color: aliceblue; */
+}
+
+.verticalList{
+    display: flex;
+    gap: 6.5rem;
     list-style: square;
+    flex-direction: column;
     font:1.25rem "Minefont";
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    color: rgb(28, 190, 77);
+    /*for debugging purposes:*/
+    /* background-color: aliceblue; */
+}
+
+.horizontalList{
+    display: flex;
+    gap: 0rem;
+    list-style: none;
+    flex-direction: row;
+    font:1.25rem "Minefont";
     text-align: justify;
     color: rgb(28, 190, 77);
     /*for debugging purposes:*/
@@ -79,5 +98,5 @@ p{
 
 .makeItFit{
     aspect-ratio: auto;
-    width: 10rem;
+    width: 20rem;
 }
