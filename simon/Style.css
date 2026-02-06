@@ -3,10 +3,13 @@
     src: url(fonts/minecraftfont.woff) format("woff");
 }
 
+body{
+    background-color: rgb(0, 0, 0);
+}
+
 h1{
     /* background-color: rgba(63, 93, 170, 0.863); */
-    font-size: 10rem;
-    font-family: "Minefont";
+    font: 10rem "Minefont";
     color: rgb(28, 190, 77);
     text-align: center;
     width: fit-content;
@@ -19,8 +22,7 @@ h1{
 }
 
 h2{
-    font-size: 3rem;
-    font-family: "Minefont";
+    font: 3rem "Minefont";
     color: rgb(28, 190, 77);
     text-align: left;
     width: fit-content;
@@ -35,32 +37,23 @@ hr{
     border-radius: 2rem;
 }
 
+img{
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: .25rem solid white;
+}
+
 p{
     /* background-color: rgba(39, 42, 49, 0.863); */
-    font-size: 1.25rem;
+    font:1.25rem "Minefont";
     word-spacing: 0.5em;
     line-height: 1.75em;
-    font-family: "Minefont";
     color: rgb(28, 190, 77);
     text-align: justify;
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
     /*for debugging purposes:*/
     /* background-color: black; */
     
-}
-
-body{
-    background-color: rgb(0, 0, 0);
-}
-
-.horizontalList{
-    display: flex;
-    list-style: square;
-    gap: 33%;
-    font-family: "Minefont";
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
-    text-align: justify;
-    color: rgb(28, 190, 77);
 }
 
 .box{
@@ -72,4 +65,19 @@ body{
     border-radius: 2rem;
     /*for debugging purposes:*/
     /* background-color: aliceblue; */
+}
+
+.horizontalList{
+    list-style: square;
+    font:1.25rem "Minefont";
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    text-align: justify;
+    color: rgb(28, 190, 77);
+    /*for debugging purposes:*/
+    /* background-color: aliceblue; */
+}
+
+.makeItFit{
+    aspect-ratio: auto;
+    width: 10rem;
 }
