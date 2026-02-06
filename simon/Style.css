@@ -54,6 +54,14 @@ ul{
     font:1.25rem "Minefont";
 }
 
+a{
+    color:rgb(255, 255, 255);
+}
+
+a:visited{
+    color:rgb(38, 139, 54);
+}
+
 .box{
     background-color: rgb(10,10,10);
     width: 68%;
